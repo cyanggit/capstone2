@@ -1,0 +1,9 @@
+---
+- hosts: servers
+  tasks:
+
+  - name: clone-project
+    git:
+      repo: 'https://github.com/cyanggit/Capstone-Project.git'
+      dest: /home/vagrant/repo
+
